@@ -1,0 +1,226 @@
+<ui version="4.0" >
+ <class>Form</class>
+ <widget class="QWidget" name="Form" >
+  <property name="windowModality" >
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="sizePolicy" >
+   <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+    <horstretch>240</horstretch>
+    <verstretch>162</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize" >
+   <size>
+    <width>600</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize" >
+   <size>
+    <width>600</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="sizeIncrement" >
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="baseSize" >
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="focusPolicy" >
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btn_localizar" >
+   <property name="geometry" >
+    <rect>
+     <x>510</x>
+     <y>30</y>
+     <width>75</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>&amp;Localizar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ok" >
+   <property name="geometry" >
+    <rect>
+     <x>510</x>
+     <y>60</y>
+     <width>75</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>&amp;OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_sair" >
+   <property name="geometry" >
+    <rect>
+     <x>510</x>
+     <y>90</y>
+     <width>75</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>&amp;Sair</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>491</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="tab" >
+    <attribute name="title" >
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QLineEdit" name="edt_localizar" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>451</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>251</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Digite Um Nome a Ser Procurado</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edt_nome" >
+     <property name="geometry" >
+      <rect>
+       <x>90</x>
+       <y>70</y>
+       <width>371</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edt_id" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>72</y>
+       <width>71</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>55</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>ID:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3" >
+     <property name="geometry" >
+      <rect>
+       <x>90</x>
+       <y>55</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Nome:</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="grd_localizar" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>451</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy" >
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="frameShape" >
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow" >
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="lineWidth" >
+      <number>1</number>
+     </property>
+     <property name="midLineWidth" >
+      <number>0</number>
+     </property>
+     <property name="showGrid" >
+      <bool>true</bool>
+     </property>
+     <property name="gridStyle" >
+      <enum>Qt::SolidLine</enum>
+     </property>
+     <property name="cornerButtonEnabled" >
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text" >
+       <string>ID:</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Nome:</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2" >
+    <attribute name="title" >
+     <string>Tab 2</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,7 @@
+[Project Dir]
+Dirs=forms
+Files=database.h/.directory/Doxyfile/frmclientes.cpp/frmclientes.cpp~/frmclientes.o/frmclientes.qrc/frmcompras.cpp/frmcompras.cpp~/frmcompras.o/frmcompras.qrc/frmcompras.qrc~/frmcompras.ui/frmlocalizar.cpp/frmlocalizar.cpp~/frmlocalizar.o/frmlocalizar.qrc/main.cpp/main.cpp~/main.o/Makefile/moc_frmclientes.cpp/moc_frmlocalizar.cpp/moc_omegasis.cpp/moc_omegasis.o/moc_subforms.cpp/moc_subforms.o/Omega/Omega.kateproject/Omega.kdevelop/Omega.kdevelop.pcs/Omega.kdevses/Omega.pro/Omega.pro~/omegasis.cpp/omegasis.cpp~/omegasis.h/omegasis.h~/omegasis.o/omegasis_res.qrc/Omega.tar/qrc_frmclientes.cpp/qrc_frmclientes.o/qrc_frmcompras.cpp/qrc_frmcompras.o/qrc_frmlocalizar.cpp/qrc_frmlocalizar.o/qrc_omegasis_res.cpp/qrc_omegasis_res.o/subforms.h/subforms.h~/ui_frmclientes.h/ui_frmcompras.h/ui_frmlocalizar.h/ui_frmprincipal.h
+
+[Project File]
+Name=Omega
+Type=Default
